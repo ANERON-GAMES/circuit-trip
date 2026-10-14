@@ -1,0 +1,24 @@
+export {
+  CIRCUIT_STATES,
+  CircuitState,
+  DECISION_FIELDS,
+  DECISION_REASONS,
+  DEFAULT_BACKOFF_MULTIPLIER,
+  DEFAULT_FAILURE_RATE,
+  DEFAULT_FAILURE_THRESHOLD,
+  DEFAULT_MAX_OPEN_MS,
+  DEFAULT_MINIMUM_CALLS,
+  DEFAULT_OPEN_MS,
+  DEFAULT_PROBE_LIMIT,
+  DEFAULT_PROBE_SUCCESSES,
+  DEFAULT_WINDOW_SIZE,
+  DecisionReason,
+  OPTION_FIELDS,
+  OUTCOMES,
+  Outcome,
+  STATE_FIELDS,
+  TRIP_MODES,
+  TripMode
+} from "./constants.js";
+
+export { canPass, createBreaker, recordFailure, recordSuccess } from "./breaker.js";
